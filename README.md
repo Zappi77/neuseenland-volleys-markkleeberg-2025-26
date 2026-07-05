@@ -12,14 +12,14 @@ Die Seite enthält:
 - planmäßige Uhrzeit je Spiel
 - Teamlogos und Links zu Teamseiten
 - MVPs mit Spielerinnenlinks
-- Kurzberichte aus VBL-Spielartikeln bzw. neutralen Spieldaten
-- Links zu Spieldetails, Statistik-PDF, Spielartikeln und YouTube-Video
+- Kurzberichte mit jeweils drei bis vier Sätzen aus den offiziellen VBL-Spielberichten
+- Links zu Spieldetails, offiziellen SAMS-Spielberichten, VBL-Spielstatistiken, Spielartikeln und YouTube-Videos
 - Punkteverlauf als Kreis-Kette
 - Tabellenverlauf und Abschlusstabellen
 - Kreuztabelle
 - Saisonbilanz
 - Markkleeberger MVP-Auswertung
-- bekannte YouTube-Direktlinks sowie Suchlinks als Platzhalter fuer spaeter nachzutragende Direktvideos
+- YouTube-Direktlinks für alle 28 Saisonspiele
 
 ## Dateien
 
@@ -136,6 +136,8 @@ git push
 
 Die Teamlogos, Spieldetails, Statistik-PDFs, Spielartikel und YouTube-Videos werden extern verlinkt. Bildergalerien sind derzeit nicht hinterlegt.
 
+Die reguläre VBL-Live-Spielstatistik für Spiel 3067 ist nicht verfügbar; dort verweist die Schaltfläche ersatzweise auf den erreichbaren offiziellen SAMS-Spielbericht.
+
 ## Änderungshistorie
 
 ### 28.06.2026
@@ -161,3 +163,11 @@ Die Teamlogos, Spieldetails, Statistik-PDFs, Spielartikel und YouTube-Videos wer
 - sechs fehlende YouTube-Direktlinks ergänzt und anhand der YouTube-Titel den richtigen Heim- und Auswärtsspielen zugeordnet
 - YouTube-Aufrufzahlen aller 28 Direktvideos aktualisiert
 - übernommene interne Köln-Bezeichner in JavaScript und CSS durch neutrale Markkleeberg-/Fokusteam-Namen ersetzt
+
+### 05.07.2026
+
+- Linkstruktur analog zur DSHS-Seite um getrennte Schaltflächen für Spieldetails, offiziellen Spielbericht und Spielstatistik erweitert
+- alle 95 auf den 28 VBL-Spieldetailseiten hinterlegten Spielartikel mit Titel und Teamkennzeichnung übernommen
+- sämtliche Kurzberichte auf drei bis vier Sätze begrenzt
+- Footer mit Copyright, Impressum und Datenschutz ergänzt
+- Benennung, externe Links und responsive Darstellung erneut geprüft
